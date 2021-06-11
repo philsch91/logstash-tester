@@ -1,4 +1,4 @@
-FROM logstash:2.3.1
+FROM logstash:6.8.16
 
 RUN logstash-plugin install --development
 
